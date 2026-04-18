@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient(rgb(0, 0, 0), rgb(118, 0, 0)); 
+    min-height: 100vh; /*blaend warna biar ngga patah2*/
+}
+
+.material-symbols-outlined {
+    font-size: 30px; /*ukuran icon*/
+    color: white; /*warna icon*/
+}
+
+h1 {
+    text-align: center; /*menengahkan tulisan*/
+    color: white; /*warna tulisan*/
+    font-size: 40px;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+.navbar {
+    background-color: black; /*warna navbar*//*membuat navbar menjadi fleksibel*/
+}
+
+ul {
+    display: flex; /*membuat list menjadi horizontal*/
+    list-style: none; /*menghilangkan bullet pada list*/
+    justify-content: right; /*menengahkan list*/
+    padding: 15px; /*menengahkan menu*/
+    gap: 20px; /*jarak antar list*/
+    font-size: small; /*ukuran font*/
+}
+
+.search-container {
+    display: flex; /*membuat search box menjadi fleksibel*/
+    align-items: center; /*menengahkan icon dan input*/
+    background: #fff; /*warna background search box*/
+    border-radius: 50px; /*membuat search box menjadi bulat*/
+    padding: 10px 20px; /*jarak antara icon dan input*/
+    width: 500px; /*lebar search box*/
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /*memberikan efek bayangan pada search box*/
+    margin: 20px auto; /*menengahkan search box secara horizontal*/
+}
+
+.search-container input {
+    border: none; /*menghilangkan border pada input*/
+    outline: none; /*menghilangkan outline pada input*/
+    font-size: 16px; /*ukuran font pada input*/
+    flex: 1; /*membuat input mengisi sisa space pada search box*/
+    margin: 0 10px; /*jarak antara icon dan input*/
+}
+
+.search-container:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /*memberikan efek bayangan yang lebih besar saat hover*/
+}
